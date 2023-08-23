@@ -2,6 +2,21 @@ div {
   line-height: 210%;
 }
 
+/* styles.css */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Define the custom cursor */
+.custom-cursor {
+  cursor: url('https://ani.cursors-4u.net/nature/nat-11/nat1037.png'), auto;
+}
+
 
 /* Desktop styles */
 @media (min-width: 768px) {
