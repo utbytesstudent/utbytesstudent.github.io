@@ -1,6 +1,7 @@
 div {
-  line-height: 200%;
+  line-height: 210%;
 }
+
 
 /* Desktop styles */
 @media (min-width: 768px) {
@@ -13,8 +14,8 @@ div {
 /* Mobile styles */
 @media (max-width: 767px) {
   div {
-    margin-right: 20px; /* Adjust this value as needed */
-    margin-left: 20px;  /* Adjust this value as needed */
+    margin-right: 20px; 
+    margin-left: 20px;  
   }
 }
 
@@ -44,7 +45,7 @@ h3 {
   font-size: 25px;
 }
 
-p {
+p, ul {
   color: rgb(247, 247, 242);
   font-size: 20px;
 }
