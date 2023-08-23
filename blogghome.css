@@ -1,8 +1,23 @@
 div {
-  margin-right: 300px;
-  margin-left: 300px;
   line-height: 200%;
 }
+
+/* Desktop styles */
+@media (min-width: 768px) {
+  div {
+    margin-right: 300px;
+    margin-left: 300px;
+  }
+}
+
+/* Mobile styles */
+@media (max-width: 767px) {
+  div {
+    margin-right: 20px; /* Adjust this value as needed */
+    margin-left: 20px;  /* Adjust this value as needed */
+  }
+}
+
 
 body {
   background-color: rgb(13, 19, 33);
@@ -30,7 +45,7 @@ h3 {
 }
 
 p {
-  color: rgb(240, 235, 216);
+  color: rgb(247, 247, 242);
   font-size: 20px;
 }
 
