@@ -2,6 +2,13 @@ div {
   line-height: 210%;
 }
 
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
 /* styles.css */
 button {
   padding: 10px 20px;
@@ -122,7 +129,7 @@ a{
   text-align: left;
 }
 
-/* Add this rule at the end of your CSS file */
+/* hover problem solved */
 .preview-box:hover h2,
 .preview-box:hover p,
 .preview-box:hover h4 {
