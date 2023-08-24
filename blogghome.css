@@ -6,10 +6,10 @@ div {
 button {
   padding: 10px 20px;
   font-size: 16px;
-  background-color: #007bff;
+  background-color:rgb(89, 183, 103);
   color: white;
   border: none;
-  cursor: pointer;
+  cursor: inherit;
 }
 
 /* Define the custom cursor */
@@ -71,6 +71,7 @@ h3 {
 h4 {
   color: rgb(116, 140, 171);
   font-size: 14px;
+  transition: color 0.3s; /* Transition with a 0.3s duration */
 }
 
 p, ul {
@@ -78,12 +79,11 @@ p, ul {
   font-size: 20px;
 }
 
+/*remove underline for links pressed*/
 a{
   text-decoration: none;
   color: inherit;
-  transition: color 0.3s;
 }
-
 
 
 * {
@@ -109,13 +109,22 @@ a{
 
 .preview-box h2 {
   margin-bottom: 10px;
+  transition: color 0.3s; /* Transition with a 0.3s duration */
 }
 
 .preview-box p {
   margin-bottom: 20px;
+  transition: color 0.3s; /* Transition with a 0.3s duration */
 }
 
 .preview-box a {
   display: block;
   text-align: left;
+}
+
+/* Add this rule at the end of your CSS file */
+.preview-box:hover h2,
+.preview-box:hover p,
+.preview-box:hover h4 {
+  color: rgb(144, 238, 144); /* Change to your desired hover color */
 }
