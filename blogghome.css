@@ -2,18 +2,7 @@ div {
   line-height: 210%;
 }
 
-.imageb {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-}
-.images {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-}
+
 
 /* styles.css */
 button {
@@ -39,6 +28,19 @@ button {
   }
 }
 
+.imageb {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+.images {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
 /* Mobile styles */
 @media (max-width: 767px) {
   div {
@@ -55,6 +57,12 @@ button {
     width: 80%; /* Adjust the width as needed */
     max-width: 300px;
     margin: 10px 0; /* Add some margin between boxes */
+  }
+
+  .images {
+    width: 80%; /* Adjust this value as needed */
+    max-width: 100%; /* Ensure images don't exceed their container */
+    height: auto; /* Maintain aspect ratio */
   }
 }
 
@@ -98,7 +106,6 @@ h5 {
   font-size: 14px;
   font-style: italic;
   text-align: center;
-  
 }
 
 p, ul {
