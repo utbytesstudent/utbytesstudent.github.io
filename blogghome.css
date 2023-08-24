@@ -36,8 +36,8 @@ button {
 /* Mobile styles */
 @media (max-width: 767px) {
   div {
-    margin-right: 3px;
-    margin-left: 3px;
+    margin-right: 30px;
+    margin-left: 30px;
   }
   .preview-row {
     justify-content: center; /* Horizontally center the boxes */
