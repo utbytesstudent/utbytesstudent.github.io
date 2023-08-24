@@ -35,6 +35,10 @@ button {
 
 /* Mobile styles */
 @media (max-width: 767px) {
+  div {
+    margin-right: 3px;
+    margin-left: 3px;
+  }
   .preview-row {
     justify-content: center; /* Horizontally center the boxes */
     flex-direction: column; /* Stack boxes in a column */
