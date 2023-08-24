@@ -28,11 +28,19 @@ button {
 
 /* Mobile styles */
 @media (max-width: 767px) {
-  div {
-    margin-right: 20px; 
-    margin-left: 20px;  
+  .preview-row {
+    justify-content: center; /* Horizontally center the boxes */
+    flex-direction: column; /* Stack boxes in a column */
+    align-items: center; /* Center items vertically within the row */
+  }
+
+  .preview-box {
+    width: 80%; /* Adjust the width as needed */
+    max-width: 300px;
+    margin: 10px 0; /* Add some margin between boxes */
   }
 }
+
 
 
 body {
