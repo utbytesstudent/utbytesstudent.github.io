@@ -14,6 +14,19 @@ button {
   cursor: inherit;
 }
 
+/* Language button*/
+.top-button {
+  position: absolute;
+  top: 50px;
+  right: 50px; /* Adjust this value to move the button further right */
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 /* Define the custom cursor */
 .custom-cursor {
   cursor: url('https://ani.cursors-4u.net/nature/nat-11/nat1037.png'), auto;
