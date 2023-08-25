@@ -14,23 +14,12 @@ button {
   cursor: inherit;
 }
 
-/* Language button*/
-.top-button {
-  position: absolute;
-  top: 50px;
-  right: 50px; /* Adjust this value to move the button further right */
-  background-color: #3498db;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
 
 /* Define the custom cursor */
 .custom-cursor {
   cursor: url('https://ani.cursors-4u.net/nature/nat-11/nat1037.png'), auto;
 }
+
 
 
 /* Desktop styles */
@@ -39,6 +28,17 @@ button {
     margin-right: 300px;
     margin-left: 300px;
   }
+  /* Language button*/
+.top-button {
+  position: absolute;
+  top: 50px;
+  right: 50px; /* Adjust this value to move the button further right */
+  color:#41658A ;
+  cursor: pointer;
+}
+}
+.top-button:hover{
+  color: #4C9F70;
 }
 
 .imageb {
@@ -77,10 +77,16 @@ button {
     max-width: 100%; /* Ensure images don't exceed their container */
     height: auto; /* Maintain aspect ratio */
   }
+/* Language button*/
+.top-button {
+  position: fixed;
+  top : 5px;
+  right: 10px; /* Adjust as needed */
+  color:#41658A ;
+  
 }
-
-
-
+}
+  
 body {
   background-color: #FFFDFA;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
